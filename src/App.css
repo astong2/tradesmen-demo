@@ -332,3 +332,20 @@ img {
   width: auto;
   object-fit: contain;
 }
+
+.section h2,
+.card h3 {
+  color: #1f2937
+}
+
+.hero h1 {
+  color: white;
+}
+
+.eyebrow {
+  color: #667280;
+}
+
+.hero .eyebrow {
+  color: rgba(255, 255, 255, 0.85);
+}
