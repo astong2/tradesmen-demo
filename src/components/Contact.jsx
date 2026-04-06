@@ -7,6 +7,10 @@ function Contact() {
         <p className="section-intro">
           Fill in a few details below and we’ll get back to you with a quote.
         </p>
+
+        <p className="quote-note">
+          Upload photos if helpful for a faster, more accurate quote.
+        </p>
       </div>
 
       <form className="quote-form">

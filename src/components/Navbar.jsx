@@ -10,9 +10,9 @@ function Navbar() {
       </div>
 
       <nav className="nav-links">
+        <a href="#contact">Request Qoute</a>
         <a href="#services">Services</a>
         <a href="#about">About</a>
-        <a href="#contact">Contact</a>
       </nav>
     </header>
   );
