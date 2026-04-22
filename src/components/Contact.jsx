@@ -57,17 +57,22 @@ function Contact() {
           ></textarea>
         </div>
 
-        <div className="form-row">
-          <div className="form-field">
-            <label htmlFor="budget">Estimated Budget</label>
-            <input id="budget" type="text" placeholder="e.g. £200 - £500" />
+        <div className="form-field">
+          <label htmlFor="urgency">Urgency</label>
+           <select id="urgency" defaultValue="">
+             <option value="" disabled>Select urgency</option>
+             <option>ASAP</option>
+             <option>Within a few days</option>
+             <option>This week</option>
+              <option>Flexible</option>
+           </select>
           </div>
 
           <div className="form-field">
             <label htmlFor="photos">Upload Photos</label>
             <input id="photos" type="file" multiple />
           </div>
-        </div>
+        
 
         <button type="submit" className="btn btn-primary">
           Request Quote

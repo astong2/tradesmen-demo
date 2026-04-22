@@ -10,7 +10,7 @@ function Navbar() {
       </div>
 
       <nav className="nav-links">
-        <a href="#contact">Request Qoute</a>
+        <a href="#contact">Request Quote</a>
         <a href="#services">Services</a>
         <a href="#about">About</a>
       </nav>
